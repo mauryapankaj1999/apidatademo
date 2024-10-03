@@ -20,7 +20,7 @@ export default function page() {
             return (
               <>
                 <div className="shadow-lg rounded-md border" key={index}>
-                  <Link href={`product/${el.id}/${el.slug}`}>
+                  <Link href={`product/${el.id}`}>
                     <Image
                       src={el?.image}
                       alt=""
